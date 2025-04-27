@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Apply Inter font globally */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<!-- Body Styling using Tailwind css -->
+
+<body class="bg-gray-900 flex items-center justify-center min-h-screen p-4 gap-8">
+
+    <!-- Tailwind CSS Card -->
+    <div class="max-w-xs rounded-lg overflow-hidden shadow-lg bg-white">
+        <!-- Card Header -->
+        <img class="w-full h-48 object-cover"
+            src="https://images.pexels.com/photos/36487/above-adventure-aerial-air.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Post Image">
+
+        <!-- Card Detail -->
+        <div class=" px-6 py-4">
+            <div class="text-gray-500 text-xs mb-2">
+                4 days ago
+            </div>
+            <div class="font-bold text-xl mb-2 text-gray-900">
+                Post One
+            </div>
+            <p class="text-gray-700 text-sm">
+                Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt
+                eligendi dolor.
+            </p>
+        </div>
+
+        <!-- Card Footer -->
+        <div class="px-6 pt-4 pb-4 bg-pink-500 text-white flex justify-between items-center rounded-b-lg">
+            <div class="text-center">
+                <div class="font-semibold text-lg">4m</div>
+                <div class="text-xs opacity-75 uppercase">Read</div>
+            </div>
+            <div class="text-center">
+                <div class="font-semibold text-lg">5123</div>
+                <div class="text-xs opacity-75 uppercase">Views</div>
+            </div>
+            <div class="text-center">
+                <div class="font-semibold text-lg">32</div>
+                <div class="text-xs opacity-75 uppercase">Comments</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
